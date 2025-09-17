@@ -1,0 +1,58 @@
+html  {
+       background-color: lightblue
+}
+
+body {
+   
+ font-family:"Times New Roman",Times,serif;
+font-size: 12pt;
+color: #204358;/* Dark blue for body text */
+text-align: center;/* Keeps paragraphs left aligned*/
+}
+h1 {
+    display: inline-block;   /* shrinks width to fit text*/
+    background-color: black; /* Background only around text */
+    font-size: 32pt;
+    color: white;        /* White text*/
+    padding: 5px 10px;       /*Space around the text */
+    margin: 20px auto;       /* centers the h1 horizontally */
+    text align: center;       /* centers text inside the h1 box */
+}
+h2 {
+    text-align: left; /* Keeps paragraphs lefft-aligned */
+    background-color: #800000; /* Dark maroon for body text */
+    color: red;                 /* Bright red text */
+}
+  img {
+       display: block;    /* Makes the image act as a block element */
+       float: left;    /* aligns the image to the left */
+      margin: 0 15px 15px 0; /* adds space around image: top right bottom left */
+} 
+p {
+   background-color: white;
+   font-family: "Times New Roman", times, serif;
+   font-size: 12pt;
+
+}
+
+p.shrt {
+      display: inline-block;  /* Shrink width to fit content */
+      background-color: lightyellow; /* Optional" highlights it*/
+      width: 600px    /* fixed width of container */
+    padding: 5px 10px;     /* Optional spacing around text */
+    margin: 10px 0;    /* vertical spacing */
+   text-align: center;
+}
+
+.row {
+     display: flex;    /* Enables horizontal layout */
+     gap: 20px ;
+
+}
+
+li {
+       text-align: left;
+}
+     
+        
+  
